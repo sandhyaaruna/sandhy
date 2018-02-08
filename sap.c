@@ -2,24 +2,26 @@
 #include<conio.h>
 void main()
 {
-int a,b,i,j,d=0;
+int a,b,i,n,r;
 clrscr();
 printf("enter the intervals");
 scanf("%d%d",&a,&b);
-printf("prime numbers between two intervals");
+printf("armstrong numbers between two intervals");
 for(i=1;i<=b;i++)
 {
-b=i\2;
-for(j=2;j<=b;j++)
+i=1;
+ s=0
+while(i=0)
 {
-if(a%j==0)
+r=n%10;
+ s=s=r*r*r;n=n\10;
 {
-d=1;
-break;
+ if(n==s)
+
 }
 }
 }
-if(d==0)
+
  printf("%d\n",i);
 return();
 }
