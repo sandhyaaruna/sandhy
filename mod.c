@@ -3,11 +3,11 @@
 void main()
 {
 long int a,b,c,d,e,f,g,h,i,j,k,l;
-scanf("%ld%ld",&a,&b);
+scanf("%ld%ld",&b,&a);
 scanf("%ld%ld",&c,&d);
 scanf("%ld%ld",&e,&f);
 scanf("%ld%ld",&g,&h);
-i=(a/b);
+i=(b/a);
 j=(c%d);
 k=(e/f);
 l=(g%h);
